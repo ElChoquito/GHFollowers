@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  GHFollowers-SwiftUI
+
+  Created by Sylvain Guillier on 02/12/2020.
+  
+*/
+
+// MARK: - Search View
+"searchView.title" = "Rechercher";
+"searchView.calToActionButton.title" = "Voir les abonnés";
+
+"searchView.emptyUsername.alert.title" = "Utilisateur absent";
+"searchView.emptyUsername.alert.message" = "Entrez un nom d'utilisateur. Nous avons besoin de savoir qui rechercher 🙂";
+
+"searchView.usernameTextField.text" = "Entrez un nom d'utilisateur";
+
+"searchView.usernameTextField.accessibilityLabel" = "Nom d'utilisateur GitHub";
+"searchView.callToActionButton.accessibilityHint" = "Toucher deux fois pour rechercher les abonnés GitHub.";
+
+// MARK: - Follower List View
+"followerListView.searchBar.placeholder" = "Rechercher un utilisateur";
+"followerListView.emptyStateView.message" = "Cet utilisateur n'a pas d'abonnés. Allez le suivre 😉";
+
+"followerListView.userAddedSuccess.alert.title" = "Succès !";
+"followerListView.userAddedSuccess.alert.message" = "Vous avez ajouté en favoris cet utilisateur avec succès ! 🥳";
+"followerListView.userAddedSuccess.alert.button" = "Hourra !";
+
+"followerListView.addButton.accessibilityLabel" = "Ajouter l'utilisateur aux favoris.";
+"followerListView.addButton.accessibilityHint" = "Toucher deux fois pour ajouter %@ comme favoris.";
+
+//MARK: - Favorites List View
+"favoritesListView.title" = "Favoris";
+"favoritesListView.emptyStateView.message" = "Aucun favoris\nAjoutez-en un via l'écran des abonnés";
+
+"favoriteListView.removeUserError.alert.title" = "Impossible de supprimer";
+
+//Mark: - User Info View
+"userInfoView.dateLabel.text %@" = "GitHub depuis %@";
+"userInfoView.doneButton.text" = "OK";
+
+"userInfoView.noFollowers.alert.title" = "Aucun abonnés";
+"userInfoView.noFollowers.alert.message" = "Cet utilisateur n'a pas d'abonnés. C'est honteux ☹️";
+"userInfoView.noFollowers.alert.button" = "Trop triste";
+
+// MARK: - GF Repo Item View
+"gfRepoItemView.actionButton.title" = "Profile GitHub";
+
+"gfRepoItemView.actionButton.accessibilityHint" = "Toucher deux fois pour afficher le profile de %@ sur le site GitHub.";
+
+// MARK: - GF Follower Item View
+"gfFollowerItemView.actionButton.title" = "Voir abonnés";
+
+"gfFollowerItemView.actionButton.accessibilityHint" = "Toucher deux fois pour afficher les abonnés de %@.";
+
+// MARK: - GF User Info Header View
+"gfUserInfoHeaderView.locationLabel.defaultText" = "Aucune localisation";
+
+"gfUserInfoHeaderView.avatarImageView.accessibilityLabel" = "Photo de profile de l'utilisateur";
+"gfUserInfoHeaderView.usernameLabel.accessibilityLabel" = "Nom d'utilisateur";
+"gfUserInfoHeaderView.nameLabel.accessibilityLabel" = "Nom";
+"gfUserInfoHeaderView.locationLabel.accessibilityLabel" = "Localisation";
+"gfUserInfoHeaderView.bioLabel.accessibilityLabel" = "Bio";
+
+// MARK: - GF Item Info View
+"gfItemInfoView.titleLabel.repos.text" = "Repos publiques";
+"gfItemInfoView.titleLabel.gists.text" = "Gists publiques";
+"gfItemInfoView.titleLabel.followers.text" = "Abonnés";
+"gfItemInfoView.titleLabel.following.text" = "Abonnements";
+
+// MARK: - GF Alert View
+"gfAlertView.dismissButton.defaultText" = "OK";
+"gfAlertView.titleLabel.defaultText" = "Erreur survenue";
+"gfAlertView.messageLabel.defaultText" = "Impossible d'effectuer la requête.";
+
+//MARK: GF Error
+"gfError.invalidUsername.message" = "Cet utilisateur créer une requête invalide. Réessayer.";
+"gfError.unableToComplete.message" = "Impossible d'effectuer votre requête. Veuiller vérifier votre connection internet.";
+"gfError.invalidResponse.message" = "Réponse invalide du serveur. Réessayer.";
+"gfError.invalidData.message" = "Les données reçues sont invalides. Réessayer.";
+"gfError.unableToFavorite.message" = "Erreur lors de l'ajout aux favoris.";
+"gfError.alreadyInFavorites.message" = "Utilisateur déjà favoris. Vous devez VRAIMENT l'aimer.";
+
+//MARK: Follower Cell
+"followerCell.accessibilityHint" = "Toucher deux fois pour voir le profil de l'utilisateur.";
+"followerCell.accessibilityLabel" = "Utilisateur: %@.";
+
+//MARK: Favorite Cell
+"favoriteCell.accessibilityHint" = "Toucher deux fois pour voir les abonnées de %@.";

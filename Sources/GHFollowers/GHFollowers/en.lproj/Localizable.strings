@@ -1,0 +1,88 @@
+/* 
+ Localizable.strings
+ GHFollowers
+ 
+ Created by Sylvain Guillier on 11/21/20.
+ Copyright © 2020 Sylvain Guillier. All rights reserved.
+ */
+
+// MARK: - Search View Controller
+"searchViewController.calToActionButton.title" = "Get Followers";
+
+"searchViewController.emptyUsername.alert.title" = "Empty Username";
+"searchViewController.emptyUsername.alert.message" = "Please enter a username. We need to know who to look for 🙂";
+
+"searchViewController.usernameTextField.accessibilityLabel" = "GitHub username";
+"searchViewController.callToActionButton.accessibilityHint" = "Double tap to search GitHub followers.";
+
+// MARK: - Follower List View Controller
+"followerListViewController.searchBar.placeholder" = "Search for a username";
+"followerListViewController.emptyStateView.message" = "This user doesn't have any followers. Go follow them 😉";
+
+"followerListViewController.userAddedSuccess.alert.title" = "Success !";
+"followerListViewController.userAddedSuccess.alert.message" = "You have successfully favortied this user ! 🥳";
+"followerListViewController.userAddedSuccess.alert.button" = "Hooray !";
+
+"followerListViewController.addButton.accessibilityLabel" = "Add a favorite.";
+"followerListViewController.addButton.accessibilityHint" = "Double tap to add %@ as a favorite.";
+
+//MARK: - Favorites List View Controller
+"favoriteListViewController.title" = "Favorite";
+"favoriteListViewController.emptyStateView.message" = "No Favorites\nAdd one on the follower screen";
+
+"favoriteListViewController.removeUserError.alert.title" = "Unable to remove";
+
+//Mark: - User Info View Controller
+"userInfoViewController.dateLabel.text" = "GitHub since %@";
+
+"userInfoViewController.noFollowers.alert.title" = "No followers";
+"userInfoViewController.noFollowers.alert.message" = "This user has no followers. What a shame ☹️";
+"userInfoViewController.noFollowers.alert.button" = "So sad";
+
+// MARK: - GF Repo Item View Controller
+"gfRepoItemViewController.actionButton.title" = "GitHub Profile";
+
+"gfRepoItemViewController.actionButton.accessibilityHint" = "Double tap to see %@ profile on GitHub website.";
+
+// MARK: - GF Follower Item View Controller
+"gfFollowerItemViewController.actionButton.title" = "Get Followers";
+
+"gfFollowerItemViewController.actionButton.accessibilityHint" = "Double tap to see %@ followers.";
+
+// MARK: - GF User Info Header View Controller
+"gfUserInfoHeaderViewController.locationLabel.defaultText" = "No location";
+
+"gfUserInfoHeaderViewController.avatarImageView.accessibilityLabel" = "User profil picture";
+"gfUserInfoHeaderViewController.usernameLabel.accessibilityLabel" = "Username";
+"gfUserInfoHeaderViewController.nameLabel.accessibilityLabel" = "Name";
+"gfUserInfoHeaderViewController.locationLabel.accessibilityLabel" = "Localisation";
+"gfUserInfoHeaderViewController.bioLabel.accessibilityLabel" = "Bio";
+
+// MARK: - GF TextField
+"gfTextField.placeholder.text" = "Enter a username";
+
+// MARK: - GF Item Info View
+"gfItemInfoView.titleLabel.repos.text" = "Public Repos";
+"gfItemInfoView.titleLabel.gists.text" = "Public Gists";
+"gfItemInfoView.titleLabel.followers.text" = "Followers";
+"gfItemInfoView.titleLabel.following.text" = "Following";
+
+// MARK: - GF Alert View Controller
+"gfAlertViewController.actionButton.defaultText" = "OK";
+"gfAlertViewController.titleLabel.defaultText" = "Something went wrong";
+"gfAlertViewController.messageLabel.defaultText" = "Unable to complete request.";
+
+//MARK: GF Error
+"gfError.invalidUsername.message" = "This username created an invalid request. Please try again.";
+"gfError.unableToComplete.message" = "Unable to complete your request. Please check your internet connection.";
+"gfError.invalidResponse.message" = "Invalid response from the server. Please try again.";
+"gfError.invalidData.message" = "The data received from the server was invalid. Please try again.";
+"gfError.unableToFavorite.message" = "There was an error favoriting this user. Please try again.";
+"gfError.alreadyInFavorites.message" = "You've already favoritd this user. You must REALLY like them !";
+
+//MARK: Follower Cell
+"followerCell.accessibilityHint" = "Double tap to see user profil.";
+"followerCell.accessibilityLabel" = "User: %@.";
+
+//MARK: Favorite Cell
+"favoriteCell.accessibilityHint" = "Double tap to see %@ followers.";

@@ -1,0 +1,89 @@
+/* 
+  Localizable.strings
+  GHFollowers-SwiftUI
+
+  Created by Sylvain Guillier on 02/12/2020.
+  
+*/
+
+// MARK: - Search View
+"searchView.title" = "Search";
+"searchView.calToActionButton.title" = "Get Followers";
+
+"searchView.emptyUsername.alert.title" = "Empty Username";
+"searchView.emptyUsername.alert.message" = "Please enter a username. We need to know who to look for 🙂";
+
+"searchView.usernameTextField.text" = "Enter a username";
+
+"searchView.usernameTextField.accessibilityLabel" = "GitHub username";
+"searchView.callToActionButton.accessibilityHint" = "Double tap to search GitHub followers.";
+
+// MARK: - Follower List View
+"followerListView.searchBar.placeholder" = "Search for a username";
+"followerListView.emptyStateView.message" = "This user doesn't have any followers. Go follow them 😉";
+
+"followerListView.userAddedSuccess.alert.title" = "Success !";
+"followerListView.userAddedSuccess.alert.message" = "You have successfully favortied this user ! 🥳";
+"followerListView.userAddedSuccess.alert.button" = "Hooray !";
+
+"followerListView.addButton.accessibilityLabel" = "Add user to favorites.";
+"followerListView.addButton.accessibilityHint" = "Double tap to add %@ as a favorite.";
+
+//MARK: - Favorites List View
+"favoritesListView.title" = "Favorite";
+"favoritesListView.emptyStateView.message" = "No Favorites\nAdd one on the follower screen";
+
+"favoritesListView.removeUserError.alert.title" = "Unable to remove";
+
+//Mark: - User Info View
+"userInfoView.dateLabel.text %@" = "GitHub since %@";
+"userInfoView.doneButton.text" = "Done";
+
+"userInfoView.noFollowers.alert.title" = "No followers";
+"userInfoView.noFollowers.alert.message" = "This user has no followers. What a shame ☹️";
+"userInfoView.noFollowers.alert.button" = "So sad";
+
+// MARK: - GF Repo Item View
+"gfRepoItemView.actionButton.title" = "GitHub Profile";
+
+"gfRepoItemView.actionButton.accessibilityHint" = "Double tap to see %@ profile on GitHub website.";
+
+// MARK: - GF Follower Item View
+"gfFollowerItemView.actionButton.title" = "Get Followers";
+
+"gfFollowerItemView.actionButton.accessibilityHint" = "Double tap to see %@ followers.";
+
+// MARK: - GF User Info Header View
+"gfUserInfoHeaderView.locationLabel.defaultText" = "No location";
+
+"gfUserInfoHeaderView.avatarImageView.accessibilityLabel" = "User profil picture";
+"gfUserInfoHeaderView.usernameLabel.accessibilityLabel" = "Username";
+"gfUserInfoHeaderView.nameLabel.accessibilityLabel" = "Name";
+"gfUserInfoHeaderView.locationLabel.accessibilityLabel" = "Localisation";
+"gfUserInfoHeaderView.bioLabel.accessibilityLabel" = "Bio";
+
+// MARK: - GF Item Info View
+"gfItemInfoView.titleLabel.repos.text" = "Public Repos";
+"gfItemInfoView.titleLabel.gists.text" = "Public Gists";
+"gfItemInfoView.titleLabel.followers.text" = "Followers";
+"gfItemInfoView.titleLabel.following.text" = "Following";
+
+// MARK: - GF Alert View
+"gfAlertView.dismissButton.defaultText" = "OK";
+"gfAlertView.titleLabel.defaultText" = "Something went wrong";
+"gfAlertView.messageLabel.defaultText" = "Unable to complete request.";
+
+//MARK: GF Error
+"gfError.invalidUsername.message" = "This username created an invalid request. Please try again.";
+"gfError.unableToComplete.message" = "Unable to complete your request. Please check your internet connection.";
+"gfError.invalidResponse.message" = "Invalid response from the server. Please try again.";
+"gfError.invalidData.message" = "The data received from the server was invalid. Please try again.";
+"gfError.unableToFavorite.message" = "There was an error favoriting this user. Please try again.";
+"gfError.alreadyInFavorites.message" = "You've already favoritd this user. You must REALLY like them !";
+
+//MARK: Follower Cell
+"followerCell.accessibilityHint" = "Double tap to see user profil.";
+"followerCell.accessibilityLabel" = "User: %@.";
+
+//MARK: Favorite Cell
+"favoriteCell.accessibilityHint" = "Double tap to see %@ followers.";

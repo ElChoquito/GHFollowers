@@ -1,0 +1,88 @@
+/* 
+ Localizable.strings
+ GHFollowers
+ 
+ Created by Sylvain Guillier on 11/21/20.
+ Copyright © 2020 Sylvain Guillier. All rights reserved.
+ */
+
+// MARK: - Search View Controller
+"searchViewController.calToActionButton.title" = "Voir les abonnés";
+
+"searchViewController.emptyUsername.alert.title" = "Utilisateur absent";
+"searchViewController.emptyUsername.alert.message" = "Entrez un nom d'utilisateur. Nous avons besoin de savoir qui rechercher 🙂";
+
+"searchViewController.usernameTextField.accessibilityLabel" = "Nom d'utilisateur GitHub";
+"searchViewController.callToActionButton.accessibilityHint" = "Toucher deux fois pour rechercher les abonnés GitHub.";
+
+// MARK: - Follower List View Controller
+"followerListViewController.searchBar.placeholder" = "Rechercher un utilisateur";
+"followerListViewController.emptyStateView.message" = "Cet utilisateur n'a pas d'abonnés. Allez le suivre 😉";
+
+"followerListViewController.userAddedSuccess.alert.title" = "Succès !";
+"followerListViewController.userAddedSuccess.alert.message" = "Vous avez ajouté en favoris cet utilisateur avec succès ! 🥳";
+"followerListViewController.userAddedSuccess.alert.button" = "Hourra !";
+
+"followerListViewController.addButton.accessibilityLabel" = "Ajouter un favoris.";
+"followerListViewController.addButton.accessibilityHint" = "Toucher deux fois pour ajouter %@ comme favoris.";
+
+//MARK: - Favorites List View Controller
+"favoriteListViewController.title" = "Favoris";
+"favoriteListViewController.emptyStateView.message" = "Aucun favoris\nAjoutez-en un via l'écran des abonnés";
+
+"favoriteListViewController.removeUserError.alert.title" = "Impossible de supprimer";
+
+//Mark: - User Info View Controller
+"userInfoViewController.dateLabel.text" = "GitHub depuis %@";
+
+"userInfoViewController.noFollowers.alert.title" = "Aucun abonnés";
+"userInfoViewController.noFollowers.alert.message" = "Cet utilisateur n'a pas d'abonnés. C'est honteux ☹️";
+"userInfoViewController.noFollowers.alert.button" = "Trop triste";
+
+// MARK: - GF Repo Item View Controller
+"gfRepoItemViewController.actionButton.title" = "Profile GitHub";
+
+"gfRepoItemViewController.actionButton.accessibilityHint" = "Toucher deux fois pour afficher le profile de %@ sur le site GitHub.";
+
+// MARK: - GF Follower Item View Controller
+"gfFollowerItemViewController.actionButton.title" = "Voir abonnés";
+
+"gfFollowerItemViewController.actionButton.accessibilityHint" = "Toucher deux fois pour afficher les abonnés de %@.";
+
+// MARK: - GF User Info Header View Controller
+"gfUserInfoHeaderViewController.locationLabel.defaultText" = "Aucune localisation";
+
+"gfUserInfoHeaderViewController.avatarImageView.accessibilityLabel" = "Photo de profile de l'utilisateur";
+"gfUserInfoHeaderViewController.usernameLabel.accessibilityLabel" = "Nom d'utilisateur";
+"gfUserInfoHeaderViewController.nameLabel.accessibilityLabel" = "Nom";
+"gfUserInfoHeaderViewController.locationLabel.accessibilityLabel" = "Localisation";
+"gfUserInfoHeaderViewController.bioLabel.accessibilityLabel" = "Bio";
+
+// MARK: - GF TextField
+"gfTextField.placeholder.text" = "Entrez un nom d'utilisateur";
+
+// MARK: - GF Item Info View
+"gfItemInfoView.titleLabel.repos.text" = "Repos publiques";
+"gfItemInfoView.titleLabel.gists.text" = "Gists publiques";
+"gfItemInfoView.titleLabel.followers.text" = "Abonnés";
+"gfItemInfoView.titleLabel.following.text" = "Abonnements";
+
+// MARK: - GF Alert View Controller
+"gfAlertViewController.actionButton.defaultText" = "OK";
+"gfAlertViewController.titleLabel.defaultText" = "Erreur survenue";
+"gfAlertViewController.messageLabel.defaultText" = "Impossible d'effectuer la requête.";
+
+//MARK: GF Error
+"gfError.invalidUsername.message" = "Cet utilisateur créer une requête invalide. Réessayer.";
+"gfError.unableToComplete.message" = "Impossible d'effectuer votre requête. Veuiller vérifier votre connection internet.";
+"gfError.invalidResponse.message" = "Réponse invalide du serveur. Réessayer.";
+"gfError.invalidData.message" = "Les données reçues sont invalides. Réessayer.";
+"gfError.unableToFavorite.message" = "Erreur lors de l'ajout aux favoris.";
+"gfError.alreadyInFavorites.message" = "Utilisateur déjà favoris. Vous devez VRAIMENT l'aimer.";
+
+//MARK: Follower Cell
+"followerCell.accessibilityHint" = "Toucher deux fois pour voir le profil de l'utilisateur.";
+"followerCell.accessibilityLabel" = "Utilisateur: %@.";
+
+//MARK: Favorite Cell
+"favoriteCell.accessibilityHint" = "Toucher deux fois pour voir les abonnées de %@.";
