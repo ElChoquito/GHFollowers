@@ -48,7 +48,7 @@ Finally, build the same app, but in SwiftUI.
 
 ## Contact
 
-Any comments, feedback or what ever, please feel free to send me an [email](mailto:sylvainguillier@icloud.com).
+Any comments, feedback or whatever, please feel free to send me an [email](mailto:sylvainguillier@icloud.com).
 
 [www.sylvainguillier.com](www.sylvainguillier.com)
 
