@@ -11,7 +11,7 @@ final class GFUserInfoHeaderViewModel: ObservableObject {
     @Published var user: User = .placeholder
     
     var location: String {
-        user.location ?? "gfUserInfoHeaderView.locationLabel.defaultText"
+        user.location ?? NSLocalizedString("gfUserInfoHeaderView.locationLabel.defaultText")
     }
 }
 

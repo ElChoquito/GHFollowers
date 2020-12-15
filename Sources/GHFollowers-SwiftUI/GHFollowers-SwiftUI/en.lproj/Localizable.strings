@@ -59,7 +59,7 @@
 "gfUserInfoHeaderView.avatarImageView.accessibilityLabel" = "User profil picture";
 "gfUserInfoHeaderView.usernameLabel.accessibilityLabel" = "Username";
 "gfUserInfoHeaderView.nameLabel.accessibilityLabel" = "Name";
-"gfUserInfoHeaderView.locationLabel.accessibilityLabel" = "Localisation";
+"gfUserInfoHeaderView.locationLabel.accessibilityLabel" = "Location";
 "gfUserInfoHeaderView.bioLabel.accessibilityLabel" = "Bio";
 
 // MARK: - GF Item Info View
